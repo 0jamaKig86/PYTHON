@@ -1,5 +1,5 @@
 import math
-from test import arrToInt,enterArr
+from security_algorithm_1 import arrToInt,enterArr
 
 def integer_multiprecision( A, B,p,W): #Bai 6
     t = math.ceil(math.log(p, 2)/W)
@@ -85,6 +85,6 @@ def inversionInFpUsingTheExtendEuclideanAlgorithm(a,p): #Bai 8
         
     
 if __name__ == "__main__":
-  
+    # test
   
     print(inversionInFpUsingTheExtendEuclideanAlgorithm(45682375,489573857))
